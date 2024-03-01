@@ -70,9 +70,7 @@ Wir erstellen eine REST API, welche man mit für ein Roulette-Programm benutzen 
 
 ### 1.4 Diagramme
 
-![image](https://github.com/Loreytox/LA-1303-SpielAPI/assets/110893594/e95ba9a0-2259-4e58-a01a-7901c35d7fe5)
 
-![image](https://github.com/Loreytox/LA-1303-SpielAPI/assets/110893594/cef6c4f6-8bbd-44ec-9cd3-6edd6189e52e)
 
 ## 2 Planen
 
