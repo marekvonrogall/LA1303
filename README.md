@@ -10,7 +10,7 @@ Marek, Cyril, Dorian, Lorenzo
 | ----- | ------- | ------------------------------------------------------------ |
 | 19.01.2024 | 0.0.1 | Heute haben wir mit der Roulette REST-API angefangen. Wir benutzen für die Umsetzung des Backends Visual Studio Enterprise 2022. |
 | 26.01.2024 | 0.0.2 | Wir haben weiter an der Umsetzung des Backends gearbeitet. Der heutige Fokus lag auf der Funktionalität der Datenbank. |
-| 02.02.2024 | 0.0.3   |  Heute haben wir an den Controllern gearbeitet, welche die http-Anfragen übernehmen. Wir sind noch nicht ganz fertig mit der Logik des Roulette Spiels. |
+| 02.02.2024 | 0.0.3 |  Heute haben wir an den Controllern gearbeitet, welche die http-Anfragen übernehmen. Wir sind noch nicht ganz fertig mit der Logik des Roulette Spiels. |
 | 23.02.2024 | 0.1.0 | Heute haben wir die Logik des Roulettespiels fertig programmiert. Das Backend ist jetzt voll funktionsfähig. Ebenfalls haben wir mit der Umsetzung des Frontends begonnen. Für die Umsetzung des Frontends benutzen wir Visual Studio Code. |
 | 01.03.2024 | 1.0.0 | Wir schaffen es leider nicht, das Backend mit Docker bereitzustellen. Das liegt daran, dass unsere Datenbank nicht auf Linux-Containern unterstützt wird. Wir haben die Realisierung des Frontends abgebrochen, da das weitere Realisieren des Frontends ohne die reibungslose bereitstellung des Backends nicht mehr notwendig ist. Die restliche Zeit haben wir in die Dokumentation / den Portfolioeintrag investiert. |
 
