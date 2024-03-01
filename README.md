@@ -8,11 +8,11 @@ Marek, Cyril, Dorian, Lorenzo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 19.01.2024 | 0.0.1 | Heute haben wir mit der Roulette REST API angefangen. Wir benutzen für die Umsetzung des Backends Visual Studio Enterprise 2022. |
+| 19.01.2024 | 0.0.1 | Heute haben wir mit der Roulette REST-API angefangen. Wir benutzen für die Umsetzung des Backends Visual Studio Enterprise 2022. |
 | 26.01.2024 | 0.0.2 | Wir haben weiter an der Umsetzung des Backends gearbeitet. Der heutige Fokus lag auf der Funktionalität der Datenbank. |
 | 02.02.2024 | 0.0.3   |  Heute haben wir an den Controllern gearbeitet, welche die http-Anfragen übernehmen. Wir sind noch nicht ganz fertig mit der Logik des Roulette Spiels. |
-| 23.02.2024 | 0.1.0 | Heute haben wir die Logik des Roulettespiels fertig programmiert. Das Backend ist jetzt voll funktionsfähig. |
-| 01.03.2024 | 1.0.0 | Wir schaffen es leider nicht, das Backend mit Docker zu hosten. Das liegt daran, dass unsere Datenbank nicht auf Linux-Containern unterstützt wird. Die restliche Zeit haben wir in die Dokumentation / Portfolioeintrag investiert.  |
+| 23.02.2024 | 0.1.0 | Heute haben wir die Logik des Roulettespiels fertig programmiert. Das Backend ist jetzt voll funktionsfähig. Ebenfalls haben wir mit der Umsetzung des Frontends begonnen. Für die Umsetzung des Frontends benutzen wir Visual Studio Code. |
+| 01.03.2024 | 1.0.0 | Wir schaffen es leider nicht, das Backend mit Docker bereitzustellen. Das liegt daran, dass unsere Datenbank nicht auf Linux-Containern unterstützt wird. Wir haben die Realisierung des Frontends abgebrochen, da das weitere Realisieren des Frontends ohne die reibungslose bereitstellung des Backends nicht mehr notwendig ist. Die restliche Zeit haben wir in die Dokumentation / den Portfolioeintrag investiert. |
 
 ## 1 Informieren
 
@@ -114,9 +114,10 @@ GetMultiplier()
 Wir haben uns trotz der Userstory 19.1 gegen ein Frontend entschieden. Das liegt daran, da wir Userstory 20.1 nicht umsetzen konnten.
 Wir haben mit der Realisierung des Frontends begonnen, jedoch parallel bei der Entwicklung des Backends gemerkt, dass wir das Backend nicht mit Docker hosten können.
 Da wir EntityFrameworkCore.SqlServer für unsere Datenbank benutzen, können wir unser Programm nicht dockerisieren, da der SqlServer nur auf Windows läuft, Docker aber Linux Container benutzt.
-Mögliche Lösungen wären den SqlServer mit einem speziellen Image in einem eigenen Container laufen zu lassen und sich anschliessend damit zu verbinden oder Windows Container anstatt Linux Container für Docker zu verwenden.
-Für beide dieser Lösungen haben wir zu wenig Zeit.
-Da wir unser Backend nicht mit Docker containerisieren können, macht ein Frontend wenig Sinn, da wir nicht auf unsere REST-API zugreifen können.
+Mögliche Lösungen wären den SqlServer mit einem speziellen Image in einem eigenen Container laufen zu lassen und sich anschliessend damit zu verbinden, eine andere Datenbanktechnologie zu verwenden oder Windows Container anstatt Linux Container für Docker zu verwenden.
+Für die Lösungsansätze eine andere Datenbanktechnologie zu verwenden oder die Datenbank auf einem seperaten Container bereitzustellen haben wir zu wenig Zeit.
+Da wir unser Backend nicht mit Docker containerisieren können, macht ein Frontend wenig Sinn, da wir sonst nur schlecht auf unsere REST-API zugreifen können.
+Wir haben uns daher entschieden die Entwicklung des Frontends abzubrechen.
 
 ## 4 Realisieren
 
@@ -177,14 +178,13 @@ NOK = Testfall nicht erfolgreich.
 
 Was wir gut gemacht haben:
 - Teamarbeit: Die Zusammenarbeit im Team war effizient, und wir konnten gemeinsam an der Umsetzung arbeiten.
-- IPERKA-Methode: Die Anwendung der IPERKA-Methode half uns, den Prozess zu gestalten und auch zu planen.
 - Individuelle Programmierung: Jedes Teammitglied konnte einen Beitrag zur Programmierung leisten.
 
   
 Was wir nicht gut gemacht haben:
-- Dockerisierung: Zu wenig über die Dockerisierung von Datenbanken informiert. Wir hätten eine andere Technologie verwenden sollen.
-- Frontend-Zeitaufwand: Die Erstellung eines funktionalen Frontends nahm mehr Zeit in Anspruch als erwartet, und die Implementierung wurde unterschätzt.
-- Frontend-Verbindung: Die Implementierung des Frontends konnte nicht mit dem Backend verbunden werden, was zu einer eingeschränkten Benutzererfahrung führte, und dazu, dass das Frontend nicht benutzbar ist.
+- Informieren: Zu wenig über die Dockerisierung von Datenbanken informiert. Wir hätten uns besser Informieren sollen und dementsprechend entweder eine andere Datenbanktechnologie verwenden oder die Datenbank extern hosten sollen.
+- Frontend-Zeitaufwand: Die Erstellung eines funktionalen Frontends nahm mehr Zeit in Anspruch als erwartet, vorallem da wir durch die nicht erfolgreiche Dockerisierung unseres Backends in Panik gerieten und viel Zeit mit Recherche und verzweifelten Lösungsansätzen verbrachten. Wir haben uns dazu entschieden, die Entwicklung des Frontends abzubrechen.
 
 Verbesserungsvorschlag:
-Für zukünftige Verbesserungen konzentrieren wir uns auf eine frühzeitigere Planung und bessere Integration von Frontend und Backend. Insbesondere in Bezug auf die Dockerisierung von Datenbanken erkennen wir Verbesserungspotenzial. Ein zukünftiger Schwerpunkt liegt deshalb auf der Erweiterung des Wissens über die Probleme und auch das Wissen zu alternativen Technologien, sodass auch das Projekt schneller programmiert werden kann und auch mit weniger Problemen.
+Für zukünftige Projekte konzentrieren wir uns darauf, uns besser über die Technologien zu informieren, welche wir verwenden wollen. Somit kommen wir nicht erneut in den Stress und Zeitdruck in letzter Minute eine Lösung für ein Problem finden zu müssen.
+Ein zukünftiger Schwerpunkt liegt deshalb auf der Erweiterung des Wissens über die Probleme und auch das Wissen zu alternativen Technologien, sodass auch das Projekt schneller programmiert werden kann und auch mit weniger Problemen.
