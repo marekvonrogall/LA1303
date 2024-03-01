@@ -137,26 +137,26 @@ Da wir unser Backend nicht mit Docker containerisieren können, macht ein Fronte
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 01.03.2024 | OK |   |
-| 2.1  | 01.03.2024 | OK |   |
-| 3.1  | 01.03.2024 | OK |   |
-| 4.1  | 01.03.2024 | OK |   |
-| 5.1  | 01.03.2024 | OK |   |
-| 6.1  | 01.03.2024 | OK |   |
-| 7.1  | 01.03.2024 | OK |   |
-| 8.1  | 01.03.2024 | OK |   |
-| 9.1  | 01.03.2024 | OK |   |
-| 10.1  | 01.03.2024 | OK |   |
-| 11.1  | 01.03.2024 | OK |   |
-| 12.1  | 01.03.2024 | OK |   |
-| 13.1  | 01.03.2024 | OK |   |
-| 14.1  | 01.03.2024 | OK |   |
-| 15.1  | 01.03.2024 | OK |   |
-| 16.1  | 01.03.2024 | OK |   |
-| 17.1  | 01.03.2024 | OK |   |
-| 18.1  | 01.03.2024 | OK |   |
-| 19.1  | 01.03.2024 | NOK |   |
-| 20.1  | 01.03.2024 | NOK |   |
+| 1.1  | 23.02.2024 | OK |Lorenzo Lai   |
+| 2.1  | 23.02.2024 | OK |Dorian herzig |
+| 3.1  | 23.02.2024 | OK |Dorian Herzig |
+| 4.1  | 23.02.2024 | OK |Marek von Rogall   |
+| 5.1  | 23.02.2024 | OK |Lorenzo Lai   |
+| 6.1  | 23.02.2024 | OK |Cyril Lutziger   |
+| 7.1  | 23.02.2024 | OK |Marek von Rogall   |
+| 8.1  | 23.02.2024 | OK |Cyril Lutziger   |
+| 9.1  | 23.02.2024 | OK |Lorenzo Lai   |
+| 10.1  | 23.02.2024 | OK |Dorian Herzig   |
+| 11.1  | 01.03.2024 | OK |Marek von Rogall   |
+| 12.1  | 01.03.2024 | OK |Lorenzo Lai   |
+| 13.1  | 01.03.2024 | OK |Dorian Herzig   |
+| 14.1  | 01.03.2024 | OK |Cyril Lutziger   |
+| 15.1  | 01.03.2024 | OK |Dorian Herzig   |
+| 16.1  | 01.03.2024 | OK |Marek von Rogall   |
+| 17.1  | 01.03.2024 | OK |Lorenzo Lai   |
+| 18.1  | 01.03.2024 | OK |Cyril Lutziger   |
+| 19.1  | 01.03.2024 | NOK |Cyril Lutziger   |
+| 20.1  | 01.03.2024 | NOK |Marek von Rogall   |
 
 OK = Testfall erfolgreich.
 NOK = Testfall nicht erfolgreich.
@@ -164,9 +164,15 @@ NOK = Testfall nicht erfolgreich.
 ## 6 Auswerten
 
 Was wir gut gemacht haben:
-- Teamarbeit
+- Teamarbeit: Die Zusammenarbeit im Team war effizient, und wir konnten gemeinsam an der Umsetzung arbeiten.
+- IPERKA-Methode: Die Anwendung der IPERKA-Methode half uns, den Prozess zu gestalten und auch zu planen.
+- Individuelle Programmierung: Jedes Teammitglied konnte einen Beitrag zur Programmierung leisten.
+
   
 Was wir nicht gut gemacht haben:
-- Zu wenig über die Dockerisierung von Datenbanken informiert. Wir hätten eine andere Technologie verwenden sollen.
+- Dockerisierung: Zu wenig über die Dockerisierung von Datenbanken informiert. Wir hätten eine andere Technologie verwenden sollen.
+- Frontend-Zeitaufwand: Die Erstellung eines funktionalen Frontends nahm mehr Zeit in Anspruch als erwartet, und die Implementierung wurde unterschätzt.
+- Frontend-Verbindung: Die Implementierung des Frontends konnte nicht mit dem Backend verbunden werden, was zu einer eingeschränkten Benutzererfahrung führte, und dazu, dass das Frontend nicht benutzbar ist.
 
 Verbesserungsvorschlag:
+Für zukünftige Verbesserungen konzentrieren wir uns auf eine frühzeitigere Planung und bessere Integration von Frontend und Backend. Insbesondere in Bezug auf die Dockerisierung von Datenbanken erkennen wir Verbesserungspotenzial. Ein zukünftiger Schwerpunkt liegt deshalb auf der Erweiterung des Wissens über die Probleme und auch das Wissen zu alternativen Technologien, sodass auch das Projekt schneller programmiert werden kann und auch mit weniger Problemen.
