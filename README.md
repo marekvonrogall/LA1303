@@ -138,7 +138,7 @@ Da wir unser Backend nicht mit Docker containerisieren können, macht ein Fronte
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 23.02.2024 | OK |Lorenzo Lai   |
-| 2.1  | 23.02.2024 | OK |Dorian herzig |
+| 2.1  | 23.02.2024 | OK |Dorian Herzig |
 | 3.1  | 23.02.2024 | OK |Dorian Herzig |
 | 4.1  | 23.02.2024 | OK |Marek von Rogall   |
 | 5.1  | 23.02.2024 | OK |Lorenzo Lai   |
@@ -147,8 +147,8 @@ Da wir unser Backend nicht mit Docker containerisieren können, macht ein Fronte
 | 8.1  | 23.02.2024 | OK |Cyril Lutziger   |
 | 9.1  | 23.02.2024 | OK |Lorenzo Lai   |
 | 10.1  | 23.02.2024 | OK |Dorian Herzig   |
-| 11.1  | 01.03.2024 | OK |Marek von Rogall   |
-| 12.1  | 01.03.2024 | OK |Lorenzo Lai   |
+| 11.1  | 23.02.2024 | OK |Marek von Rogall   |
+| 12.1  | 23.02.2024 | OK |Lorenzo Lai   |
 | 13.1  | 01.03.2024 | OK |Dorian Herzig   |
 | 14.1  | 01.03.2024 | OK |Cyril Lutziger   |
 | 15.1  | 01.03.2024 | OK |Dorian Herzig   |
