@@ -70,7 +70,17 @@ Wir erstellen eine REST API, welche man mit für ein Roulette-Programm benutzen 
 
 ### 1.4 Diagramme
 
+Roulette (Backend)
+![image](https://github.com/marekvonrogall/LA1303/assets/110893594/5344da25-6f54-418c-9af0-9481bf5ac6ac)
 
+RouletteController
+![image](https://github.com/marekvonrogall/LA1303/assets/110893594/2e935f69-750c-4abf-b4cc-672f5de166e6)
+
+CheckUserImage
+![image](https://github.com/marekvonrogall/LA1303/assets/110893594/66ce5b39-b8c3-43d0-8ac7-9b163b3d0c22)
+
+GetMultiplier()
+![image](https://github.com/marekvonrogall/LA1303/assets/110893594/9d838e79-edab-47e8-9216-8be119684a55)
 
 ## 2 Planen
 
