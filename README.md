@@ -76,26 +76,26 @@ Wir erstellen eine REST API, welche man mit für ein Roulette-Programm benutzen 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 19.01.2024 |      |              |                |
-| 2.A | 26.01.2024 |      |              |                |
-| 3.A | 02.02.2024 |      |              |                |
-| 4.A | 19.01.2024 |      |              |                |
-| 5.A | 19.01.2024 |      |              |                |
-| 6.A | 23.02.2024 |      |              |                |
-| 7.A | 01.03.2024 |      |              |                |
-| 8.A | 19.01.2024 |      |              |                |
-| 9.A | 19.01.2024 |      |              |                |
-| 10.A | 19.01.2024 |      |              |                |
-| 11.A | 19.01.2024 |      |              |                |
-| 12.A | 19.01.2024 |      |              |                |
-| 13.A | 19.01.2024 |      |              |                |
-| 14.A | 19.01.2024 |      |              |                |
-| 15.A | 19.01.2024 |      |              |                |
-| 16.A | 19.01.2024 |      |              |                |
-| 17.A | 19.01.2024 |      |              |                |
-| 18.A | 19.01.2024 |      |              |                |
-| 19.A | 19.01.2024 |      |              |                |
-| 20.A | 19.01.2024 |      |              |                |
+| 1.A | 19.01.2024 | Marek | Registrierung neuer Benutzer für das Roulette-Spiel. | 30' |
+| 2.A | 19.01.2024 | Marek | Bereitstellung eines Startgehalts von 2000 Chips für neu registrierte Benutzer. | 30' |
+| 3.A | 26.01.2024 | Lorenzo, Marek | Anzeige aller Benutzernamen und deren Chipanzahl. | 45' |
+| 4.A | 26.01.2024 | Marek | Löschfunktion für Benutzerkonten. | 30' |
+| 5.A | 26.01.2024 | Cyril | Funktion zum Setzen von Einsätzen für Benutzer. | 45' |
+| 6.A | 26.01.2024 | Marek, Cyril | Funktion zum Setzen von Wetten für Benutzer. | 45' |
+| 7.A | 26.01.2024 | Dorian, Marek| Anzeige aller Einsätze der Benutzer. | 30' |
+| 8.A | 26.01.2024 | Dorian, Marek | Anzeige aller Wetten der Benutzer. | 30' |
+| 9.A | 02.02.2024 | Marek | Funktion zum Zurückziehen eines Einsatzes und einer Wette für Benutzer. | 30' |
+| 10.A | 02.02.2024 | Lorenzo | Funktion zum Starten des Roulette-Spiels. | 30' |
+| 11.A | 02.02.2024 | Cyril | Gewährleistung, dass der Benutzer bei einer korrekten Wette auf eine einzelne Zahl das 35-fache seines Einsatzes zurück erhält. | 30' |
+| 12.A | 02.02.2024 | Cyril | Gewährleistung, dass der Benutzer bei einer korrekten Wette auf eine Farbe das zweifache seines Einsatzes zurück erhält. | 30' |
+| 13.A | 02.02.2024 | Cyril | Gewährleistung, dass der Benutzer bei einer korrekten Wette auf einen Sektor (1-12, 13-24, 25-36) das dreifache seines Einsatzes zurück erhält. | 30' |
+| 14.A | 23.02.2024 | Lorenzo | Abzug der gewetteten Chips vom Benutzerkonto beim Platzieren eines Einsatzes. | 30' |
+| 15.A | 23.02.2024 | Marek | Überprüfung, ob der Benutzer nur so viel Geld wetten kann, wie er Chips besitzt. | 30' |
+| 16.A | 23.02.2024 | Dorian | Überprüfung der Gültigkeit eines Einsatzes. | 30' |
+| 17.A | 23.02.2024 | Dorian | Überprüfung der Gültigkeit einer Wette. | 30' |
+| 18.A | 23.02.2024 | Marek | Speicherung aller Daten in einer Datenbank. | 45' |
+| 19.A | 01.03.2024 | Lorenzo, Marek | Bereitstellung einer Benutzeroberfläche für die Interaktion mit der REST-API. | 60' |
+| 20.A | 01.03.2024 | Cyril, Marek | Hosting von Front- und Backend mittels Docker lokal. | 45' |
 
 ## 3 Entscheiden
 
