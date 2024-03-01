@@ -1,4 +1,6 @@
-# LA-1303-SpielAPI
+# LA1303 - Roulette
+
+Unser Projekt befindet sich [hier](https://github.com/marekvonrogall/LA1303/tree/master).
 
 # Projekt-Dokumentation
 
