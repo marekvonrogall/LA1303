@@ -74,7 +74,6 @@ public class RouletteController : ControllerBase
         }
     }
 
-
     private bool CheckUserBet(string userBet, int generatedNumber)
     {
         if (int.TryParse(userBet, out int userNumber))
