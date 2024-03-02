@@ -19,10 +19,10 @@ var benutzer = await _context.Benutzer
   .Select(b => new { b.Id, b.Name, b.Chips })
   .FirstOrDefaultAsync();
 ```
-Quelle: ChatGPT
+Quelle: [ChatGPT](https://chat.openai.com/)
 
 Mehrere Einträge auf einmal aus der Datenbank entfernen. Beispiel:
 ```cs
 _context.Einsatz.RemoveRange(_context.Einsatz);
 ```
-Quelle: ChatGPT
+Quelle: [ChatGPT](https://chat.openai.com/)
