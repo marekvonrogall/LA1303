@@ -84,6 +84,13 @@ CheckUserImage
 GetMultiplier()
 ![image](https://github.com/marekvonrogall/LA1303/assets/110893594/9d838e79-edab-47e8-9216-8be119684a55)
 
+Demonstrationsvideo:
+[Link zum Demonstrationsvideo auf YouTube](https://youtu.be/PeVXCich-50)
+
+Verifikation:
+
+Der PAP (Aufgeteilt in 4 Bilder) dient zur Veranschaulichung des Ablaufs des Backends. Das Video (YouTube) dient als Demonstration des Backends.
+
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
@@ -148,6 +155,8 @@ Wir haben uns daher entschieden die Entwicklung des Frontends abzubrechen.
 
 ### 5.1 Testprotokoll
 
+Testumgebung: Windows 11 Pro Version 23H2 (Build 22631.3155)
+
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 23.02.2024 | OK |Lorenzo Lai   |
@@ -173,6 +182,8 @@ Wir haben uns daher entschieden die Entwicklung des Frontends abzubrechen.
 
 OK = Testfall erfolgreich.
 NOK = Testfall nicht erfolgreich.
+
+Fazit: Wir konnten die Mehrheit unserer Testfälle erfolgreich umsetzen. Testfall Nr. 19 und 20. waren nicht erfolgreich.
 
 ## 6 Auswerten
 
