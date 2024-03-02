@@ -20,7 +20,6 @@ namespace api.Controllers
                 _context.Benutzer.Add(benutzer);
                 await _context.SaveChangesAsync();
                 return CreatedAtAction(nameof(PostBenutzer), new { id = benutzer.Id }, benutzer);
-
             }
         }
 

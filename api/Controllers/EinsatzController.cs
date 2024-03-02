@@ -23,7 +23,6 @@ public class EinsatzController : ControllerBase
 
             if (benutzer != null)
             {
-                // Ensure that the user has enough chips before subtracting
                 if (benutzer.Chips >= userEinsatz)
                 {
                     Einsatz einsatz = new Einsatz();

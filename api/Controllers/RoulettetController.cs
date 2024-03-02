@@ -30,15 +30,15 @@ public class RouletteController : ControllerBase
 
             foreach (var userBet in allUserBets)
             {
-                // Check the bet of each user
+                // Wette von jedem Benutzer auf Gewinne überprüfen.
                 bool userWins = CheckUserBet(userBet.UserWette, generatedNumber);
 
-                // Get the user from the database
+                // Benutzer bekommen
                 var user = _context.Benutzer.FirstOrDefault(u => u.Name == userBet.UserName);
 
                 if (user != null)
                 {
-                    // Get the user's bet from the database
+                    // BenutzerWette bekommen
                     var userEinsatzEntry = _context.Einsatz.FirstOrDefault(e => e.UserName == userBet.UserName);
 
                     if (userEinsatzEntry == null || userEinsatzEntry.UserEinsatz == 0)
